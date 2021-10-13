@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <p> Welkom bij Guess the Number!</p>
+    <p> Klik op de knop om het spel te spelen</p>
+
+    <button onclick="myFunction()">Speel!</button>
+
+    <p id="demo"></p>
+
+    <script>
+        function myFunction() {
+            var person = prompt("Welkom! Wat is je naam?");
+            if (person != null) {
+                document.getElementById("demo").innerHTML =
+                    "Hey " + person + "!";
+            }
+        }
+    </script>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
